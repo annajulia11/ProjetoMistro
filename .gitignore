@@ -1,0 +1,18 @@
+# Dados sensíveis — nunca subir
+.env
+credenciais*.json
+*.json
+!package.json
+
+# Páginas salvas para depuração (podem ter dados de clientes)
+*.html
+*.png
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Sistema
+.DS_Store
